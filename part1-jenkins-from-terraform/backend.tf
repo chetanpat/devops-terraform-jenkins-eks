@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "mubin-devops-cicd-terraform-eks"
+    bucket = "svp402-terraform-statefile-bucket"
     region = "us-east-1"
-    key = "jenkins-server/terraform.tfstate"
+    key = "jenkins-server2/terraform.tfstate"
   }
 }
